@@ -152,11 +152,6 @@ export default function DashboardPage() {
           </div>
         </div>
         <div style={{ display: "flex", gap: 10 }}>
-          <Link href="/mitigation">
-            <button style={{ padding: "10px 18px", background: "#0d0d14", border: "1px solid #1a1a2e", borderRadius: 10, color: "#e2e8f0", cursor: "pointer", fontSize: 13, fontWeight: 600 }}>
-              ⚡ Mitigate
-            </button>
-          </Link>
           <Link href="/audit">
             <button style={{ padding: "10px 18px", background: "linear-gradient(135deg,#7c3aed,#2563eb)", border: "none", borderRadius: 10, color: "white", cursor: "pointer", fontSize: 13, fontWeight: 600 }}>
               ◉ Full Audit
