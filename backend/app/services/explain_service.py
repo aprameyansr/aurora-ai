@@ -168,7 +168,7 @@ def generate_explanation(bias_result: dict) -> dict:
         return _rule_based_fallback(bias_result)
 
     try:
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-2.5-flash")
         prompt = _build_prompt(bias_result)
         response = model.generate_content(prompt)
         text = response.text.strip()
